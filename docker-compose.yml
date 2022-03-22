@@ -1,5 +1,5 @@
 version: "3.7"
- services:
+services:
  postgres:
      image: postgres:12.1
      environment:
@@ -50,6 +50,6 @@ version: "3.7"
        - drkiq
      ports:
        - '8020:8020'
- volumes:
+volumes:
    drkiq-postgres:
    drkiq-redis:
